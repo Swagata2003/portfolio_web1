@@ -1,0 +1,99 @@
+.headedu {
+    margin-left:41%;
+    margin-top: 3%;
+    font-family: 'Arial Rounded MT';
+    font-size: 18px;
+    /* font-weight: 500; */
+    text-shadow: 4px 4px rgba(127, 129, 115, 0.377);
+}
+.insti{
+    display: flex;
+    margin-top: 20px;
+}
+.educationclass .quote{
+    margin-top:20px;
+    font-weight: 500;
+    margin-left:35%;
+    color:green;
+    text-shadow: 4px 4px rgba(199, 218, 35, 0.586);
+}
+.fa-graduation-cap{
+    position: relative;
+    float:left;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.school .school-info .name,.clg .clg-info .name{
+    cursor: pointer;
+    
+}
+.school .school-info .year{
+    color:rgb(9, 101, 9);
+}
+.school .school-info .degree{
+    color:blue;
+}
+.school .school-info,.clg .clg-info{
+    padding-top: 20px;
+    float:left;
+}
+
+.school .school-info h3{
+    margin-top:7px;
+}
+.school{
+    width: 46%;
+    margin-left: 25px;
+    margin-top: 30px;
+    background-color: rgb(173, 255, 255);
+    /* height: 320px; */
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+.school .schoolpic img{
+    width:32%;
+    float:left;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.clg .clgpic img{
+    width:30%;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.clg{
+   background-color: rgb(250, 176, 253);
+   width:50%;
+   /* height: 320px; */
+   padding-bottom:30px;
+   border-radius: 30px;
+   margin-left:20px;
+   margin-top: 30px;
+   border: 1px solid rgba(255,255,255,0.3);
+   box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+} 
+.clg .clg-info .degree{
+    margin-top: 10px;
+    color:blue;
+}
+.clg .clg-info .year{
+    color:rgb(9, 101, 9);
+    margin-top: 5px;
+}
+.school-info svg{
+    margin-top: 7px;
+}
+.clg-info svg{
+    margin-top:7px;
+}
+.school:hover,.clg:hover{
+    -ms-transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    tranform:scale(1.015);
+    cursor: pointer;
+}

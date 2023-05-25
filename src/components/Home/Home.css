@@ -1,0 +1,118 @@
+
+.home{
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.svg-hand{
+    height:40px;
+    width:40px;
+}
+.summ{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size:20px;
+}
+.intro{
+    margin: 30px 80px ;
+    background-color: rgba(136, 231, 231, 0.868);
+    width:50%;
+    margin-top:150px;
+    margin-left: 10%;
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    /* height:240px; */
+}
+.intro:hover{
+    -ms-transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    tranform:scale(1.015);
+    cursor: pointer;
+}
+.intro .name{
+    font-family: 'Arial Rounded MT';
+    font-size: 40px;
+}
+.intro .name span{
+    font-size: 45px;
+}
+/* .home{
+    background-image: url('back.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+} */
+.contactbutt{
+    border-radius:10px;
+    width: 130px;
+    padding: 7px;
+    font-size:20px;
+    font-family: 'Arial Rounded MT';
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(250, 104, 0, 0.947);
+    color: #ffff;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    height: 7vh;
+}
+.contactbutt:hover{
+    background-color: blue;
+    
+}
+/* .classpic{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 350px;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+.classpic img{
+    max-width: 100%;
+    transform: rotate(-45deg) scale(0.8);
+} */
+.intro-pic{
+    display:flex;
+    margin-top: 10px;
+}
+.intro-pic .classpic{
+    margin-top: 100px;
+    margin-right:40px;
+    width: 20%;
+    order:1;
+    height: 20%;
+    background-size: cover;
+    justify-self: center;
+    /* box-shadow: 0 0 0 9px rgba(65, 85, 187, 0.76); */
+    animation: animate 8s ease-in-out infinite 0.004s;
+}
+@keyframes animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/60% 30% 70% 40%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+/* body{
+    background-image: url(homeport.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+} */
+.intro .class{
+    display:flex;
+}

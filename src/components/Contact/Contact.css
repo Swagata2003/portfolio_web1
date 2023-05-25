@@ -1,0 +1,184 @@
+.contact .heading h1{
+    margin-left: 44%;
+    margin-top: 20px;
+
+}
+.contact .heading{
+  margin-bottom: 20px;
+}
+.contact .heading h1 i{
+    margin-right: 10px;
+}
+.contact-content-con{
+    display: flex;
+    height:76vh;
+    margin-left:6.5%;
+    margin-right: 5%;
+    margin-top:7px;
+  }
+  .contact-content-con .left-contact {
+    background-color:rgba(134, 117, 247, 0.459);
+    padding:20px;
+    width:48%;
+  }
+  .right-contact .contact-form .input-control i{
+    color:rgb(50, 49, 49);
+    opacity: 1;
+  }
+  .contact-content-con .left-contact:hover,.contact-content-con .right-contact:hover{
+    -ms-transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    tranform:scale(1.015);
+    cursor: pointer;
+  }
+  .contact-content-con .left-contact h5{
+    float:right;
+    margin-left: 5px;
+    margin-top: 4px;
+    font-weight:100 ;
+    font-size: 18px;
+    font-family:"Cambria";
+  }
+    .contact-content-con .left-contact h4 {
+     float:left;
+     font-size: 19px;
+     /*margin-left: 40px; */
+    }
+  .contact-content-con .right-contact h2{
+    margin-top: 10px;
+    margin-left: 4%;
+    margin-bottom:5%;
+  }
+  .contact-form{
+    margin-bottom: 40px;
+  }
+  .contact-content-con .left-contact p {
+    margin: 1rem 0;
+    line-height: 2rem;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item p {
+    margin: 0.3rem 0 !important;
+    padding: 0 !important;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item .icon {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-top:5px;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item .icon span{
+    align-items: center;
+    margin-top:13px;
+    /* display:flex; */
+  }
+  .contact-content-con .left-contact .contact-info .contact-item .icon span h3{
+    margin-bottom: px;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item .icon i {
+    align-items: center;
+    font-size: 1.3rem;
+    margin-top:14.5px;
+    margin-left:8px;
+  }
+  
+  
+
+  .contact-content-con .left-contact .contact-icon {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .contact-content-con .left-contact .contact-icon a {
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-grey-5);
+    cursor: pointer;
+    justify-content: center;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+    transition: all 0.4s ease-in-out;
+  }
+  .contact-content-con .left-contact .contact-icon{
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .contact-content-con .left-contact .contact-icon a:hover i {
+    color: blue;
+  }
+  .contact-content-con .left-contact .contact-icon a i {
+    
+    font-size: 30px;
+  }
+  .contact-content-con .right-contact {
+    /* flex: 3; */
+    /*margin-right: 40px; */
+    background-color: aqua;
+    width:48%;
+    margin-left: 30px;
+    padding:20px;
+
+  }
+  .left-contact .btn-con{
+    margin-left:30%;
+  }
+  .contact-info .contact-item .icon span h3{
+    margin-right:5px;
+  }
+  .contact-content-con .right-contact .input-control {
+    margin: 1.5rem 0;
+  }
+  .contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
+    border-radius: 30px;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:30px;
+    outline: none;
+    border: none;
+    background-color: rgb(238, 235, 235);
+    
+    /* resize: none; */
+    width: 100%;
+  }
+  .contact-content-con .right-contact .i-c-2 {
+    display: flex;
+  }
+  .contact-content-con .right-contact .i-c-2 :last-child {
+    margin-left: 1.5rem;
+  }
+  .contact-form .subtext{
+    font-size:20px;
+    font-family: 'Arial Rounded MT';
+    font-weight: 600;
+    border: none;
+    padding: 9px;
+    margin-left: 70%;
+    border-radius:10px;
+    width: 110px;
+    cursor: pointer;
+    background-color: rgba(255, 139, 45, 0.947);
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  }
+  .contact-form .subtext:hover{
+    color: white;
+  }
+  .contact-form .subtext:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    tranform:scale(1.05);
+    color:white;
+    background-color: blue;
+    margin-right: 5px;
+
+  }
+ 
