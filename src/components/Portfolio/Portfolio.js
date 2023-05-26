@@ -19,7 +19,7 @@ function Portfolio() {
           <div className="row1">
             <div className="pro_1" id="pro">
               <div className="image">
-                <img src="img_1.png"alt=""/>
+                <img src="https://drive.google.com/uc?export=view&id=1wXO3UBuQhYFP5SLexsB9kn2NK9BXPPCA"alt=""/>
               </div>
               <div className="hover-items">
                 <h3>Project Source</h3>
@@ -32,7 +32,7 @@ function Portfolio() {
             </div>
           <div className="pro_2" id="pro">
               <div className="image">
-                <img src="img_2.png" alt=""/>
+                <img src="https://drive.google.com/uc?export=view&id=1VY_2rjxi3zLlTIS0TwCQrw2JiIJCbj8j" alt=""/>
               </div>
               <div className="hover-items">
                 <h3>Project Source</h3>
@@ -45,7 +45,7 @@ function Portfolio() {
           </div>
           <div className="pro_3" id="pro">
               <div className="image">
-                <img src="img_3.png" alt=""/>
+                <img src="https://drive.google.com/uc?export=view&id=1AtoZ122M5n0LhAZEg2rtIxcV2UWxC7sr" alt=""/>
               </div>
               <div className="hover-items">
                 <h3>Project Source</h3>

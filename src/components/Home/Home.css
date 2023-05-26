@@ -89,9 +89,9 @@
     margin-right:40px;
     width: 20%;
     order:1;
-    height: 20%;
+    height: 70%;
     background-size: cover;
-    justify-self: center;
+     justify-self: center;
     /* box-shadow: 0 0 0 9px rgba(65, 85, 187, 0.76); */
     animation: animate 8s ease-in-out infinite 0.004s;
 }

@@ -15,7 +15,7 @@ function Education() {
       <div className="insti">
         <div className="school">
           <div className="schoolpic">
-            <img src="pic2.jpg" alt="pict"/>
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSY6ddPC9dS54nE5yPU7LLpmHxM6lhr4wLg8cMDgVriUTjpRY35" alt="pict"/>
           </div>
           <div className="school-info">
             <a href="https://navanalanda.org.in/"><h4 className='name'><u>Nava Nalanda Group of Schools</u></h4></a>
@@ -52,7 +52,7 @@ fill="#000000" stroke="none">
         </div>
         <div className="clg">
           <div className="clgpic">
-            <img src="pic3.jpg" alt="pict"/>
+            <img src="https://www.studyinindia.gov.in/API/Uploads/Institute/Gallery/SII-I-0159/SII-I-0159__20220305070819_.jpg" alt="pict"/>
           </div>
           <div className="clg-info">
             <a href="https://www.nitdgp.ac.in/"><h4 className='name'><u>National Institute of Technology, Durgapur</u></h4></a>

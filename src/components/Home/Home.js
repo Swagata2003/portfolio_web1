@@ -19,7 +19,7 @@ function Home() {
       <div className="intro">
         <div className="class">
           <h1 className="name">Hi, I'm <span style={{color:'orange'}}>Swagata Sinha</span></h1>
-          <img src="hand.png" style={{width:'45px',height:'45px' ,marginLeft:'7px'}}/>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Emoji_u1f44b.svg" alt="hand"style={{width:'45px',height:'45px' ,marginLeft:'7px'}}/>
         </div>
         <div className="summ">
           A passionate coder & enthusiast in learning new technology
@@ -27,7 +27,7 @@ function Home() {
           <a href={`${url}contact`}><button id='7' className="contactbutt">Contact Me</button></a>
         </div>
       </div>
-      <img className="classpic" src="imgg.png" alt="pict" />
+      <img src="https://drive.google.com/uc?export=view&id=1FKAOalioPkPU28jSGyOLDVpskPPapwgW" className="classpic" alt="car" />
       </div>
     </motion.div>
 
