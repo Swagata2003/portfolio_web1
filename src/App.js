@@ -14,7 +14,7 @@ import React,{ useState } from 'react';
 function App() {
   
   return (
-    <Router>
+    <Router basename="/portfolio_web1">
       <Navbar/>
       <div className="main">
       <AnimatedRoutes/>
