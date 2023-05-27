@@ -20,7 +20,7 @@ function About() {
             various web applications using modern web technologies such as ReactJS and NodeJS. In addition to my technical skills, I also have strong interpersonal and communication abilities that enable me to collaborate effectively with both teams and clients.</p>
             <p>I am a committed and detail-oriented individual who is eager to expand my knowledge and skills in the technology sector. I possess a strong passion for leveraging diverse technological tools to tackle complex problems. Furthermore, my optimistic outlook and self-assured demeanor make me an ideal candidate for any employment prospects within the tech industry.</p>
             <div className="btn-con" style={{marginTop:'px'}}>
-                    <a className="main-btn" href="https://drive.google.com/uc?export=view&id=11WAQMWAAOF2NANzSU4C6a3P204XlSOuB">
+                    <a className="main-btn" href="https://drive.google.com/uc?export=view&id=19r6u_KN5tJGSyrGW8cXCR2kNrStfZouV">
                         <span className="btn-text">Download CV</span>
                         <span className="btn-icon"><i className="fas fa-download" ></i></span>
                     </a>
