@@ -50,7 +50,7 @@ function Portfolio() {
               <div className="hover-items">
                 <h3>Project Source</h3>
                 <div className="icons">
-                  <a href="https://swagata2003.github.io/Portfolio/" className="icon">
+                  <a href="https://Swagata2003.github.io/portfolio_web1/" className="icon">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
