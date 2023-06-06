@@ -24,7 +24,7 @@ function Home() {
         <div className="summ">
           A passionate coder & enthusiast in learning new technology
           <br/><br />
-          <a href={`${url}contact`}><button id='7' className="contactbutt">Contact Me</button></a>
+          <a href={`${url}/contact`}><button id='7' className="contactbutt">Contact Me</button></a>
         </div>
       </div>
       <img src="https://drive.google.com/uc?export=view&id=1FKAOalioPkPU28jSGyOLDVpskPPapwgW" className="classpic" alt="car" />
