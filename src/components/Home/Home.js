@@ -1,13 +1,18 @@
 import React from 'react';
 import './Home.css';
 import { motion } from "framer-motion";
+import { useNavigate } from 'react-router-dom';
 function Home() {
-  function getCurrentURL () {
-    return window.location.href
-  }
+  // function getCurrentURL () {
+  //   return window.location.href
+  // }
   
   // Example
-  const url = getCurrentURL()
+  // const url = getCurrentURL()
+  const navigate=useNavigate();
+  const onClick=()=>{
+    navigate('/contact')
+  }
   return (
     <motion.div className="home"
       initial={{ x: -100 }}
@@ -24,7 +29,7 @@ function Home() {
         <div className="summ">
           A passionate coder & enthusiast in learning new technology
           <br/><br />
-          <a href={`${url}/contact`}><button id='7' className="contactbutt">Contact Me</button></a>
+          <button id='7' className="contactbutt" onClick={onClick}>Contact Me</button>
         </div>
       </div>
       <img src="https://drive.google.com/uc?export=view&id=1FKAOalioPkPU28jSGyOLDVpskPPapwgW" className="classpic" alt="car" />
