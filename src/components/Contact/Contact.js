@@ -65,7 +65,7 @@ PIN-713209,Dist-Paschim Bardhaman</h5></span>
                             </div>
                         </div>
                         <div className="btn-con">
-                            <a className="main-btn" href="https://drive.google.com/uc?export=view&id=1yxl4vdaNM2LQZu2fJvDraYkuZ5bFFcWZ">
+                            <a className="main-btn" href="https://drive.google.com/uc?export=view&id=12_q8k7pfS3Nc7vEfaT_6dMMUR3lzLQs7">
                         <span className="btn-text">Download CV</span>
                         <span className="btn-icon"><i className="fas fa-download"></i></span>
                         </a>
