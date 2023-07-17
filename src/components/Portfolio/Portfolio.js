@@ -9,8 +9,7 @@ function Portfolio() {
       exit={{ x: -100 }}
       transition={{ duration: 0.03 }}>
         <div className="heading">
-            <h1>My Portfolio</h1>
-            <span>My Projects</span>
+            <h1>My Projects</h1>
         </div>
         <div className="quote">
           <h5>A creative project is a moving target. You never end up where you start.</h5>
@@ -19,12 +18,12 @@ function Portfolio() {
           <div className="row1">
             <div className="pro_1" id="pro">
               <div className="image">
-                <img src="https://drive.google.com/uc?export=view&id=1wXO3UBuQhYFP5SLexsB9kn2NK9BXPPCA"alt=""/>
+                <img src="https://drive.google.com/uc?export=view&id=1mfH1huqT0JasTyaO48FXd2F5BWaIT7D7"alt=""/>
               </div>
               <div className="hover-items">
                 <h3>Project Source</h3>
                 <div className="icons">
-                  <a href="https://swagata2003.github.io/Weather-website/" className="icon">
+                  <a href="https://swagata2003.github.io/ecommerce-whole" target="_blank"  rel="noreferrer"  className="icon">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
@@ -37,7 +36,7 @@ function Portfolio() {
               <div className="hover-items">
                 <h3>Project Source</h3>
                 <div className="icons">
-                  <a href="https://swagata2003.github.io/RecipeBook/" className="icon">
+                  <a href="https://swagata2003.github.io/RecipeBook/" target="_blank"  rel="noreferrer"  className="icon">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
@@ -50,7 +49,7 @@ function Portfolio() {
               <div className="hover-items">
                 <h3>Project Source</h3>
                 <div className="icons">
-                  <a href="https://Swagata2003.github.io/portfolio_web1/" className="icon">
+                  <a href="https://Swagata2003.github.io/portfolio_web1/" target="_blank"  rel="noreferrer" className="icon">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
