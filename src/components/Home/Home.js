@@ -32,7 +32,7 @@ function Home() {
           <button id='7' className="contactbutt" onClick={onClick}>Contact Me</button>
         </div>
       </div>
-      <img src="https://drive.google.com/uc?export=view&id=1FKAOalioPkPU28jSGyOLDVpskPPapwgW" className="classpic" alt="car" />
+      <img src="https://media.licdn.com/dms/image/C4D03AQGEkkCG-lF0VA/profile-displayphoto-shrink_400_400/0/1641879463065?e=1696464000&v=beta&t=StqYQM3Yxl6KUToJjyUJnAlBeYB_mSDpXV4POD4y_28" className="classpic" alt="car" />
       </div>
     </motion.div>
 
